@@ -39,6 +39,11 @@ bottomnvgtn.addEventListener('click',function(details){
         bottomnvgtn.innerHTML = ""
         makeBubble()
         guessNumber()
+    }else{
+        alert('You clicked Wrong Number ! Try again')
+        bottomnvgtn.innerHTML = ""
+        makeBubble()
+        guessNumber()
     }
     
 })
